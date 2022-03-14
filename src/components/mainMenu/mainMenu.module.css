@@ -1,0 +1,64 @@
+.mainMenu {
+   position: fixed;
+   width: 20.2%;
+   height: 100%;
+}
+.mainMenu:before {
+   position: absolute;
+   top: 0;
+   left: 0;
+   content: "";
+   height: 37px;
+   width: 100%;
+   background: #d9d9d9;
+}
+.mainMenu:after {
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   content: "";
+   height: 82px;
+   width: 100%;
+   background: #d9d9d9;
+}
+.sort {
+   margin-top: 69px;
+}
+h2 {
+   font-weight: bold;
+   margin-top: 35px;
+}
+ul {
+   margin-top: 14px;
+}
+.text {
+   margin-left: 22px;
+   font-size: 14px;
+   line-height: 18px;
+}
+.filter {
+   margin-top: 39px;
+}
+.filter ul.text {
+   margin-top: 15px;
+}
+.price {
+   margin-top: -19px;
+}
+.price .text li input {
+   margin-top: 2px;
+   margin-left: -1px;
+   padding-left: 2px;
+   width: 174px;
+   border: 1px solid rgb(0, 0, 0);
+}
+.price .text li:last-child {
+   margin-top: 15px;
+}
+.companies {
+   margin-top: -18px;
+}
+.companies ul {
+   margin-top: 17px;
+   line-height: 16px;
+}

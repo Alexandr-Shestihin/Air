@@ -1,0 +1,1721 @@
+{
+   "result": {
+      "flights": [
+         {
+            "hasExtendedFare": false,
+            "flight": {
+               "carrier": {
+                  "uid": "AF",
+                  "caption": "Air France",
+                  "airlineCode": "AF"
+               },
+               "price": {
+                  "total": {
+                     "amount": "105368",
+                     "currency": "руб.",
+                     "currencyCode": "RUB"
+                  },
+                  "totalFeeAndTaxes": {
+                     "amount": "11663.00",
+                     "currency": "руб.",
+                     "currencyCode": "RUB"
+                  },
+                  "rates": {
+                     "totalUsd": {
+                        "amount": "1308.92",
+                        "currencyCode": "EUR"
+                     },
+                     "totalEur": {
+                        "amount": "1484.06",
+                        "currencyCode": "USD"
+                     }
+                  },
+                  "passengerPrices": [
+                     {
+                        "total": {
+                           "amount": "105368.00",
+                           "currency": "руб.",
+                           "currencyCode": "RUB"
+                        },
+                        "passengerType": {
+                           "uid": "ADULT",
+                           "caption": "Взрослый"
+                        },
+                        "singlePassengerTotal": {
+                           "amount": "105368.00",
+                           "currency": "руб.",
+                           "currencyCode": "RUB"
+                        },
+                        "passengerCount": 1,
+                        "tariff": {
+                           "amount": "93705.00",
+                           "currency": "руб.",
+                           "currencyCode": "RUB"
+                        },
+                        "feeAndTaxes": {
+                           "amount": "11663.00",
+                           "currency": "руб.",
+                           "currencyCode": "RUB"
+                        }
+                     }
+                  ]
+               },
+               "servicesStatuses": {
+                  "baggage": {
+                     "uid": "FREE",
+                     "caption": "Бесплатно"
+                  },
+                  "exchange": {
+                     "uid": "FREE",
+                     "caption": "Бесплатно"
+                  },
+                  "refund": {
+                     "uid": "OFF",
+                     "caption": "Недоступно"
+                  }
+               },
+               "legs": [
+                  {
+                     "duration": 735,
+                     "segments": [
+                        {
+                           "classOfServiceCode": "I",
+                           "classOfService": {
+                              "uid": "BUSINESS",
+                              "caption": "Бизнес"
+                           },
+                           "departureAirport": {
+                              "uid": "SVO",
+                              "caption": "ШЕРЕМЕТЬЕВО"
+                           },
+                           "departureCity": {
+                              "uid": "MOW",
+                              "caption": "Москва"
+                           },
+                           "aircraft": {
+                              "uid": "321",
+                              "caption": "АЭРОБУС321"
+                           },
+                           "travelDuration": 245,
+                           "arrivalCity": {
+                              "uid": "PAR",
+                              "caption": "ПАРИЖ"
+                           },
+                           "arrivalDate": "2020-08-18T09:15:00",
+                           "flightNumber": "1655",
+                           "techStopInfos": [],
+                           "departureDate": "2020-08-18T06:10:00",
+                           "stops": 0,
+                           "servicesDetails": {
+                              "freeCabinLuggage": {},
+                              "paidCabinLuggage": {},
+                              "tariffName": "BUSINESS FLEX",
+                              "fareBasis": {
+                                 "ADULT": "IS50AENB"
+                              },
+                              "freeLuggage": {
+                                 "ADULT": {
+                                    "pieces": 2,
+                                    "nil": false,
+                                    "unit": "шт"
+                                 }
+                              },
+                              "paidLuggage": {}
+                           },
+                           "airline": {
+                              "uid": "AF",
+                              "caption": "Air France",
+                              "airlineCode": "AF"
+                           },
+                           "starting": true,
+                           "arrivalAirport": {
+                              "uid": "CDG",
+                              "caption": "ПАРИЖ, ШАРЛЬ ДЕ ГОЛЛЬ"
+                           }
+                        },
+                        {
+                           "classOfServiceCode": "I",
+                           "classOfService": {
+                              "uid": "BUSINESS",
+                              "caption": "Бизнес"
+                           },
+                           "departureAirport": {
+                              "uid": "CDG",
+                              "caption": "ПАРИЖ, ШАРЛЬ ДЕ ГОЛЛЬ"
+                           },
+                           "departureCity": {
+                              "uid": "PAR",
+                              "caption": "ПАРИЖ"
+                           },
+                           "aircraft": {
+                              "uid": "320",
+                              "caption": "А320"
+                           },
+                           "travelDuration": 85,
+                           "arrivalCity": {
+                              "uid": "LON",
+                              "caption": "ЛОНДОН"
+                           },
+                           "arrivalDate": "2020-08-18T16:25:00",
+                           "flightNumber": "1280",
+                           "techStopInfos": [],
+                           "departureDate": "2020-08-18T16:00:00",
+                           "stops": 0,
+                           "servicesDetails": {
+                              "freeCabinLuggage": {},
+                              "paidCabinLuggage": {},
+                              "tariffName": "BUSINESS FLEX",
+                              "fareBasis": {
+                                 "ADULT": "IS50AENB"
+                              },
+                              "freeLuggage": {
+                                 "ADULT": {
+                                    "pieces": 2,
+                                    "nil": false,
+                                    "unit": "шт"
+                                 }
+                              },
+                              "paidLuggage": {}
+                           },
+                           "airline": {
+                              "uid": "AF",
+                              "caption": "Air France",
+                              "airlineCode": "AF"
+                           },
+                           "starting": false,
+                           "arrivalAirport": {
+                              "uid": "LHR",
+                              "caption": "Лондон, Хитроу"
+                           }
+                        }
+                     ]
+                  },
+                  {
+                     "duration": 1400,
+                     "segments": [
+                        {
+                           "classOfServiceCode": "I",
+                           "classOfService": {
+                              "uid": "BUSINESS",
+                              "caption": "Бизнес"
+                           },
+                           "departureAirport": {
+                              "uid": "LHR",
+                              "caption": "Лондон, Хитроу"
+                           },
+                           "departureCity": {
+                              "uid": "LON",
+                              "caption": "ЛОНДОН"
+                           },
+                           "aircraft": {
+                              "uid": "319",
+                              "caption": "AirbusA319"
+                           },
+                           "travelDuration": 80,
+                           "arrivalCity": {
+                              "uid": "PAR",
+                              "caption": "ПАРИЖ"
+                           },
+                           "arrivalDate": "2020-08-19T19:55:00",
+                           "flightNumber": "1281",
+                           "techStopInfos": [],
+                           "departureDate": "2020-08-19T17:35:00",
+                           "stops": 0,
+                           "servicesDetails": {
+                              "freeCabinLuggage": {},
+                              "paidCabinLuggage": {},
+                              "tariffName": "BUSINESS FLEX",
+                              "fareBasis": {
+                                 "ADULT": "IS50AENB"
+                              },
+                              "freeLuggage": {
+                                 "ADULT": {
+                                    "pieces": 2,
+                                    "nil": false,
+                                    "unit": "шт"
+                                 }
+                              },
+                              "paidLuggage": {}
+                           },
+                           "airline": {
+                              "uid": "AF",
+                              "caption": "Air France",
+                              "airlineCode": "AF"
+                           },
+                           "starting": true,
+                           "arrivalAirport": {
+                              "uid": "CDG",
+                              "caption": "ПАРИЖ, ШАРЛЬ ДЕ ГОЛЛЬ"
+                           }
+                        },
+                        {
+                           "classOfServiceCode": "I",
+                           "classOfService": {
+                              "uid": "BUSINESS",
+                              "caption": "Бизнес"
+                           },
+                           "departureAirport": {
+                              "uid": "CDG",
+                              "caption": "ПАРИЖ, ШАРЛЬ ДЕ ГОЛЛЬ"
+                           },
+                           "departureCity": {
+                              "uid": "PAR",
+                              "caption": "ПАРИЖ"
+                           },
+                           "aircraft": {
+                              "uid": "321",
+                              "caption": "АЭРОБУС321"
+                           },
+                           "travelDuration": 240,
+                           "arrivalCity": {
+                              "uid": "MOW",
+                              "caption": "Москва"
+                           },
+                           "arrivalDate": "2020-08-20T18:55:00",
+                           "flightNumber": "4898",
+                           "techStopInfos": [],
+                           "departureDate": "2020-08-20T13:55:00",
+                           "stops": 0,
+                           "servicesDetails": {
+                              "freeCabinLuggage": {},
+                              "paidCabinLuggage": {},
+                              "tariffName": "BUSINESS FLEX",
+                              "fareBasis": {
+                                 "ADULT": "IS50AENB"
+                              },
+                              "freeLuggage": {
+                                 "ADULT": {
+                                    "pieces": 2,
+                                    "nil": false,
+                                    "unit": "шт"
+                                 }
+                              },
+                              "paidLuggage": {}
+                           },
+                           "airline": {
+                              "uid": "AF",
+                              "caption": "Air France",
+                              "airlineCode": "AF"
+                           },
+                           "starting": false,
+                           "arrivalAirport": {
+                              "uid": "SVO",
+                              "caption": "ШЕРЕМЕТЬЕВО"
+                           },
+                           "operatingAirline": {
+                              "uid": "SU1",
+                              "caption": "Аэрофлот - российские авиалинии",
+                              "airlineCode": "SU"
+                           }
+                        }
+                     ]
+                  }
+               ],
+               "exchange": {
+                  "ADULT": {
+                     "exchangeableBeforeDeparture": true,
+                     "exchangeAfterDeparture": {
+                        "amount": "0",
+                        "currency": "руб.",
+                        "currencyCode": "RUB"
+                     },
+                     "exchangeBeforeDeparture": {
+                        "amount": "0",
+                        "currency": "руб.",
+                        "currencyCode": "RUB"
+                     },
+                     "exchangeableAfterDeparture": true
+                  }
+               },
+               "isTripartiteContractDiscountApplied": false,
+               "international": false,
+               "seats": [
+                  {
+                     "count": 1,
+                     "type": {
+                        "uid": "ADULT",
+                        "caption": "Взрослый"
+                     }
+                  }
+               ],
+               "refund": {
+                  "ADULT": {
+                     "refundableBeforeDeparture": false,
+                     "refundableAfterDeparture": false
+                  }
+               }
+            },
+            "flightToken": "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\nM7ftO8Pb5bd1HqPpYZhi/Siz3v8DVhk9RxGiAAA="
+         },
+         {
+            "hasExtendedFare": false,
+            "flight": {
+               "carrier": {
+                  "uid": "KL",
+                  "caption": "KLM",
+                  "airlineCode": "KL"
+               },
+               "price": {
+                  "total": {
+                     "amount": "36491",
+                     "currency": "руб.",
+                     "currencyCode": "RUB"
+                  },
+                  "totalFeeAndTaxes": {
+                     "amount": "10326.00",
+                     "currency": "руб.",
+                     "currencyCode": "RUB"
+                  },
+                  "rates": {
+                     "totalUsd": {
+                        "amount": "453.30",
+                        "currencyCode": "EUR"
+                     },
+                     "totalEur": {
+                        "amount": "513.96",
+                        "currencyCode": "USD"
+                     }
+                  },
+                  "passengerPrices": [
+                     {
+                        "total": {
+                           "amount": "36491.00",
+                           "currency": "руб.",
+                           "currencyCode": "RUB"
+                        },
+                        "passengerType": {
+                           "uid": "ADULT",
+                           "caption": "Взрослый"
+                        },
+                        "singlePassengerTotal": {
+                           "amount": "36491.00",
+                           "currency": "руб.",
+                           "currencyCode": "RUB"
+                        },
+                        "passengerCount": 1,
+                        "tariff": {
+                           "amount": "26165.00",
+                           "currency": "руб.",
+                           "currencyCode": "RUB"
+                        },
+                        "feeAndTaxes": {
+                           "amount": "10326.00",
+                           "currency": "руб.",
+                           "currencyCode": "RUB"
+                        }
+                     }
+                  ]
+               },
+               "servicesStatuses": {
+                  "baggage": {
+                     "uid": "OFF",
+                     "caption": "Недоступно"
+                  },
+                  "exchange": {
+                     "uid": "FREE",
+                     "caption": "Бесплатно"
+                  },
+                  "refund": {
+                     "uid": "OFF",
+                     "caption": "Недоступно"
+                  }
+               },
+               "legs": [
+                  {
+                     "duration": 355,
+                     "segments": [
+                        {
+                           "classOfServiceCode": "T",
+                           "classOfService": {
+                              "uid": "ECONOMY",
+                              "caption": "Эконом"
+                           },
+                           "departureAirport": {
+                              "uid": "SVO",
+                              "caption": "ШЕРЕМЕТЬЕВО"
+                           },
+                           "departureCity": {
+                              "uid": "MOW",
+                              "caption": "Москва"
+                           },
+                           "aircraft": {
+                              "uid": "73В",
+                              "caption": "Боинг 737-700 (винглетс) Пассажирский/BBJ1"
+                           },
+                           "travelDuration": 210,
+                           "arrivalCity": {
+                              "uid": "AMS",
+                              "caption": "АМСТЕРДАМ"
+                           },
+                           "arrivalDate": "2020-08-18T19:30:00",
+                           "flightNumber": "904",
+                           "techStopInfos": [],
+                           "departureDate": "2020-08-18T17:00:00",
+                           "stops": 0,
+                           "servicesDetails": {
+                              "freeCabinLuggage": {},
+                              "paidCabinLuggage": {},
+                              "tariffName": "ECONOMY LIGHT2",
+                              "fareBasis": {
+                                 "ADULT": "TS55ABLG"
+                              },
+                              "freeLuggage": {
+                                 "ADULT": {
+                                    "nil": true
+                                 }
+                              },
+                              "paidLuggage": {}
+                           },
+                           "airline": {
+                              "uid": "KL",
+                              "caption": "KLM",
+                              "airlineCode": "KL"
+                           },
+                           "starting": true,
+                           "arrivalAirport": {
+                              "uid": "AMS",
+                              "caption": "Схипхол"
+                           }
+                        },
+                        {
+                           "classOfServiceCode": "T",
+                           "classOfService": {
+                              "uid": "ECONOMY",
+                              "caption": "Эконом"
+                           },
+                           "departureAirport": {
+                              "uid": "AMS",
+                              "caption": "Схипхол"
+                           },
+                           "departureCity": {
+                              "uid": "AMS",
+                              "caption": "АМСТЕРДАМ"
+                           },
+                           "aircraft": {
+                              "uid": "73Х",
+                              "caption": "Боинг 737-800 (винглетс) Пассажирский/BBJ2"
+                           },
+                           "travelDuration": 85,
+                           "arrivalCity": {
+                              "uid": "LON",
+                              "caption": "ЛОНДОН"
+                           },
+                           "arrivalDate": "2020-08-18T20:55:00",
+                           "flightNumber": "1033",
+                           "techStopInfos": [],
+                           "departureDate": "2020-08-18T20:30:00",
+                           "stops": 0,
+                           "servicesDetails": {
+                              "freeCabinLuggage": {},
+                              "paidCabinLuggage": {},
+                              "tariffName": "ECONOMY LIGHT2",
+                              "fareBasis": {
+                                 "ADULT": "TS55ABLG"
+                              },
+                              "freeLuggage": {
+                                 "ADULT": {
+                                    "nil": true
+                                 }
+                              },
+                              "paidLuggage": {}
+                           },
+                           "airline": {
+                              "uid": "KL",
+                              "caption": "KLM",
+                              "airlineCode": "KL"
+                           },
+                           "starting": false,
+                           "arrivalAirport": {
+                              "uid": "LHR",
+                              "caption": "Лондон, Хитроу"
+                           }
+                        }
+                     ]
+                  },
+                  {
+                     "duration": 1195,
+                     "segments": [
+                        {
+                           "classOfServiceCode": "L",
+                           "classOfService": {
+                              "uid": "ECONOMY",
+                              "caption": "Эконом"
+                           },
+                           "departureAirport": {
+                              "uid": "LHR",
+                              "caption": "Лондон, Хитроу"
+                           },
+                           "departureCity": {
+                              "uid": "LON",
+                              "caption": "ЛОНДОН"
+                           },
+                           "aircraft": {
+                              "uid": "319",
+                              "caption": "AirbusA319"
+                           },
+                           "travelDuration": 75,
+                           "arrivalCity": {
+                              "uid": "PAR",
+                              "caption": "ПАРИЖ"
+                           },
+                           "arrivalDate": "2020-08-19T08:35:00",
+                           "flightNumber": "1081",
+                           "techStopInfos": [],
+                           "departureDate": "2020-08-19T06:20:00",
+                           "stops": 0,
+                           "servicesDetails": {
+                              "freeCabinLuggage": {},
+                              "paidCabinLuggage": {},
+                              "tariffName": "ECONOMY LIGHT2",
+                              "fareBasis": {
+                                 "ADULT": "LS50ABLG"
+                              },
+                              "freeLuggage": {
+                                 "ADULT": {
+                                    "nil": true
+                                 }
+                              },
+                              "paidLuggage": {}
+                           },
+                           "airline": {
+                              "uid": "AF",
+                              "caption": "Air France",
+                              "airlineCode": "AF"
+                           },
+                           "starting": true,
+                           "arrivalAirport": {
+                              "uid": "CDG",
+                              "caption": "ПАРИЖ, ШАРЛЬ ДЕ ГОЛЛЬ"
+                           }
+                        },
+                        {
+                           "classOfServiceCode": "L",
+                           "classOfService": {
+                              "uid": "ECONOMY",
+                              "caption": "Эконом"
+                           },
+                           "departureAirport": {
+                              "uid": "CDG",
+                              "caption": "ПАРИЖ, ШАРЛЬ ДЕ ГОЛЛЬ"
+                           },
+                           "departureCity": {
+                              "uid": "PAR",
+                              "caption": "ПАРИЖ"
+                           },
+                           "aircraft": {
+                              "uid": "321",
+                              "caption": "АЭРОБУС321"
+                           },
+                           "travelDuration": 220,
+                           "arrivalCity": {
+                              "uid": "MOW",
+                              "caption": "Москва"
+                           },
+                           "arrivalDate": "2020-08-20T04:15:00",
+                           "flightNumber": "4860",
+                           "techStopInfos": [],
+                           "departureDate": "2020-08-19T23:35:00",
+                           "stops": 0,
+                           "servicesDetails": {
+                              "freeCabinLuggage": {},
+                              "paidCabinLuggage": {},
+                              "tariffName": "ECONOMY LIGHT2",
+                              "fareBasis": {
+                                 "ADULT": "LS50ABLG"
+                              },
+                              "freeLuggage": {
+                                 "ADULT": {
+                                    "nil": true
+                                 }
+                              },
+                              "paidLuggage": {}
+                           },
+                           "airline": {
+                              "uid": "AF",
+                              "caption": "Air France",
+                              "airlineCode": "AF"
+                           },
+                           "starting": false,
+                           "arrivalAirport": {
+                              "uid": "SVO",
+                              "caption": "ШЕРЕМЕТЬЕВО"
+                           },
+                           "operatingAirline": {
+                              "uid": "SU1",
+                              "caption": "Аэрофлот - российские авиалинии",
+                              "airlineCode": "SU"
+                           }
+                        }
+                     ]
+                  }
+               ],
+               "exchange": {
+                  "ADULT": {
+                     "exchangeableBeforeDeparture": true,
+                     "exchangeAfterDeparture": {
+                        "amount": "0",
+                        "currency": "руб.",
+                        "currencyCode": "RUB"
+                     },
+                     "exchangeBeforeDeparture": {
+                        "amount": "0",
+                        "currency": "руб.",
+                        "currencyCode": "RUB"
+                     },
+                     "exchangeableAfterDeparture": true
+                  }
+               },
+               "isTripartiteContractDiscountApplied": false,
+               "international": false,
+               "seats": [
+                  {
+                     "count": 1,
+                     "type": {
+                        "uid": "ADULT",
+                        "caption": "Взрослый"
+                     }
+                  }
+               ],
+               "refund": {
+                  "ADULT": {
+                     "refundableBeforeDeparture": false,
+                     "refundableAfterDeparture": false
+                  }
+               }
+            },
+            "flightToken": "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"
+         },
+         {
+            "hasExtendedFare": false,
+            "flight": {
+               "carrier": {
+                  "uid": "AF",
+                  "caption": "Air France",
+                  "airlineCode": "AF"
+               },
+               "price": {
+                  "total": {
+                     "amount": "104598",
+                     "currency": "руб.",
+                     "currencyCode": "RUB"
+                  },
+                  "totalFeeAndTaxes": {
+                     "amount": "10893.00",
+                     "currency": "руб.",
+                     "currencyCode": "RUB"
+                  },
+                  "rates": {
+                     "totalUsd": {
+                        "amount": "1299.35",
+                        "currencyCode": "EUR"
+                     },
+                     "totalEur": {
+                        "amount": "1473.21",
+                        "currencyCode": "USD"
+                     }
+                  },
+                  "passengerPrices": [
+                     {
+                        "total": {
+                           "amount": "104598.00",
+                           "currency": "руб.",
+                           "currencyCode": "RUB"
+                        },
+                        "passengerType": {
+                           "uid": "ADULT",
+                           "caption": "Взрослый"
+                        },
+                        "singlePassengerTotal": {
+                           "amount": "104598.00",
+                           "currency": "руб.",
+                           "currencyCode": "RUB"
+                        },
+                        "passengerCount": 1,
+                        "tariff": {
+                           "amount": "93705.00",
+                           "currency": "руб.",
+                           "currencyCode": "RUB"
+                        },
+                        "feeAndTaxes": {
+                           "amount": "10893.00",
+                           "currency": "руб.",
+                           "currencyCode": "RUB"
+                        }
+                     }
+                  ]
+               },
+               "servicesStatuses": {
+                  "baggage": {
+                     "uid": "FREE",
+                     "caption": "Бесплатно"
+                  },
+                  "exchange": {
+                     "uid": "FREE",
+                     "caption": "Бесплатно"
+                  },
+                  "refund": {
+                     "uid": "OFF",
+                     "caption": "Недоступно"
+                  }
+               },
+               "legs": [
+                  {
+                     "duration": 895,
+                     "segments": [
+                        {
+                           "classOfServiceCode": "I",
+                           "classOfService": {
+                              "uid": "BUSINESS",
+                              "caption": "Бизнес"
+                           },
+                           "departureAirport": {
+                              "uid": "SVO",
+                              "caption": "ШЕРЕМЕТЬЕВО"
+                           },
+                           "departureCity": {
+                              "uid": "MOW",
+                              "caption": "Москва"
+                           },
+                           "aircraft": {
+                              "uid": "320",
+                              "caption": "А320"
+                           },
+                           "travelDuration": 240,
+                           "arrivalCity": {
+                              "uid": "PAR",
+                              "caption": "ПАРИЖ"
+                           },
+                           "arrivalDate": "2020-08-18T22:00:00",
+                           "flightNumber": "1455",
+                           "techStopInfos": [],
+                           "departureDate": "2020-08-18T19:00:00",
+                           "stops": 0,
+                           "servicesDetails": {
+                              "freeCabinLuggage": {},
+                              "paidCabinLuggage": {},
+                              "tariffName": "BUSINESS FLEX",
+                              "fareBasis": {
+                                 "ADULT": "IS50AENB"
+                              },
+                              "freeLuggage": {
+                                 "ADULT": {
+                                    "pieces": 2,
+                                    "nil": false,
+                                    "unit": "шт"
+                                 }
+                              },
+                              "paidLuggage": {}
+                           },
+                           "airline": {
+                              "uid": "AF",
+                              "caption": "Air France",
+                              "airlineCode": "AF"
+                           },
+                           "starting": true,
+                           "arrivalAirport": {
+                              "uid": "CDG",
+                              "caption": "ПАРИЖ, ШАРЛЬ ДЕ ГОЛЛЬ"
+                           }
+                        },
+                        {
+                           "classOfServiceCode": "I",
+                           "classOfService": {
+                              "uid": "BUSINESS",
+                              "caption": "Бизнес"
+                           },
+                           "departureAirport": {
+                              "uid": "CDG",
+                              "caption": "ПАРИЖ, ШАРЛЬ ДЕ ГОЛЛЬ"
+                           },
+                           "departureCity": {
+                              "uid": "PAR",
+                              "caption": "ПАРИЖ"
+                           },
+                           "aircraft": {
+                              "uid": "320",
+                              "caption": "А320"
+                           },
+                           "travelDuration": 85,
+                           "arrivalCity": {
+                              "uid": "LON",
+                              "caption": "ЛОНДОН"
+                           },
+                           "arrivalDate": "2020-08-19T07:55:00",
+                           "flightNumber": "1680",
+                           "techStopInfos": [],
+                           "departureDate": "2020-08-19T07:30:00",
+                           "stops": 0,
+                           "servicesDetails": {
+                              "freeCabinLuggage": {},
+                              "paidCabinLuggage": {},
+                              "tariffName": "BUSINESS FLEX",
+                              "fareBasis": {
+                                 "ADULT": "IS50AENB"
+                              },
+                              "freeLuggage": {
+                                 "ADULT": {
+                                    "pieces": 2,
+                                    "nil": false,
+                                    "unit": "шт"
+                                 }
+                              },
+                              "paidLuggage": {}
+                           },
+                           "airline": {
+                              "uid": "AF",
+                              "caption": "Air France",
+                              "airlineCode": "AF"
+                           },
+                           "starting": false,
+                           "arrivalAirport": {
+                              "uid": "LHR",
+                              "caption": "Лондон, Хитроу"
+                           }
+                        }
+                     ]
+                  },
+                  {
+                     "duration": 520,
+                     "segments": [
+                        {
+                           "classOfServiceCode": "I",
+                           "classOfService": {
+                              "uid": "BUSINESS",
+                              "caption": "Бизнес"
+                           },
+                           "departureAirport": {
+                              "uid": "LHR",
+                              "caption": "Лондон, Хитроу"
+                           },
+                           "departureCity": {
+                              "uid": "LON",
+                              "caption": "ЛОНДОН"
+                           },
+                           "aircraft": {
+                              "uid": "319",
+                              "caption": "AirbusA319"
+                           },
+                           "travelDuration": 80,
+                           "arrivalCity": {
+                              "uid": "PAR",
+                              "caption": "ПАРИЖ"
+                           },
+                           "arrivalDate": "2020-08-19T19:55:00",
+                           "flightNumber": "1281",
+                           "techStopInfos": [],
+                           "departureDate": "2020-08-19T17:35:00",
+                           "stops": 0,
+                           "servicesDetails": {
+                              "freeCabinLuggage": {},
+                              "paidCabinLuggage": {},
+                              "tariffName": "BUSINESS FLEX",
+                              "fareBasis": {
+                                 "ADULT": "IS50AENB"
+                              },
+                              "freeLuggage": {
+                                 "ADULT": {
+                                    "pieces": 2,
+                                    "nil": false,
+                                    "unit": "шт"
+                                 }
+                              },
+                              "paidLuggage": {}
+                           },
+                           "airline": {
+                              "uid": "AF",
+                              "caption": "Air France",
+                              "airlineCode": "AF"
+                           },
+                           "starting": true,
+                           "arrivalAirport": {
+                              "uid": "CDG",
+                              "caption": "ПАРИЖ, ШАРЛЬ ДЕ ГОЛЛЬ"
+                           }
+                        },
+                        {
+                           "classOfServiceCode": "I",
+                           "classOfService": {
+                              "uid": "BUSINESS",
+                              "caption": "Бизнес"
+                           },
+                           "departureAirport": {
+                              "uid": "CDG",
+                              "caption": "ПАРИЖ, ШАРЛЬ ДЕ ГОЛЛЬ"
+                           },
+                           "departureCity": {
+                              "uid": "PAR",
+                              "caption": "ПАРИЖ"
+                           },
+                           "aircraft": {
+                              "uid": "321",
+                              "caption": "АЭРОБУС321"
+                           },
+                           "travelDuration": 220,
+                           "arrivalCity": {
+                              "uid": "MOW",
+                              "caption": "Москва"
+                           },
+                           "arrivalDate": "2020-08-20T04:15:00",
+                           "flightNumber": "4860",
+                           "techStopInfos": [],
+                           "departureDate": "2020-08-19T23:35:00",
+                           "stops": 0,
+                           "servicesDetails": {
+                              "freeCabinLuggage": {},
+                              "paidCabinLuggage": {},
+                              "tariffName": "BUSINESS FLEX",
+                              "fareBasis": {
+                                 "ADULT": "IS50AENB"
+                              },
+                              "freeLuggage": {
+                                 "ADULT": {
+                                    "pieces": 2,
+                                    "nil": false,
+                                    "unit": "шт"
+                                 }
+                              },
+                              "paidLuggage": {}
+                           },
+                           "airline": {
+                              "uid": "AF",
+                              "caption": "Air France",
+                              "airlineCode": "AF"
+                           },
+                           "starting": false,
+                           "arrivalAirport": {
+                              "uid": "SVO",
+                              "caption": "ШЕРЕМЕТЬЕВО"
+                           },
+                           "operatingAirline": {
+                              "uid": "SU1",
+                              "caption": "Аэрофлот - российские авиалинии",
+                              "airlineCode": "SU"
+                           }
+                        }
+                     ]
+                  }
+               ],
+               "exchange": {
+                  "ADULT": {
+                     "exchangeableBeforeDeparture": true,
+                     "exchangeAfterDeparture": {
+                        "amount": "0",
+                        "currency": "руб.",
+                        "currencyCode": "RUB"
+                     },
+                     "exchangeBeforeDeparture": {
+                        "amount": "0",
+                        "currency": "руб.",
+                        "currencyCode": "RUB"
+                     },
+                     "exchangeableAfterDeparture": true
+                  }
+               },
+               "isTripartiteContractDiscountApplied": false,
+               "international": false,
+               "seats": [
+                  {
+                     "count": 1,
+                     "type": {
+                        "uid": "ADULT",
+                        "caption": "Взрослый"
+                     }
+                  }
+               ],
+               "refund": {
+                  "ADULT": {
+                     "refundableBeforeDeparture": false,
+                     "refundableAfterDeparture": false
+                  }
+               }
+            },
+            "flightToken": "H4sIAAAAAAAAAO09a29cx3Xf+ytYf2qBDjnvh7EmQJGSIsCWFFJykgZBME9q49Uus7t0rBQFHDco\nWhSFnTQpiqZI8+jrQwo4aZwoce38heU/ypl79827u3f5kEhJtrnenTtzZubMmfOaM+c2Ou4b0fc3\nfMv2em+85juPNw+7zdButuPme/1u82gTih532puHobf5uBNia/NWq3n4qP/a9p9swD+N42bYTkQG\nYZVAXpGEuOAcOR8ZoppSJuG3d7qxlWuWbQDW9sHOjf2bja38tSz0x71+5/H9bucodvvNOCwuHjX7\n8fHqEZaj6z3pQe3Nu/ZxDG/b1nF8bQJoPGDGOWOME+SSJYgHE5AlxCJivRdUKC9xnBrwuG0boG7v\nNbuAsWanfacdGltF0Wytd3O3240//eru3s6Dna/u33zwcP/u17623dgqn0wmtpVnNpz/VjUCGv2m\nfyf2dzvH7f42aWxN/ywrNNvN/p7tx22KKUZYISI2CH6d8Ncx3eQK2oxrlA1cy7bfufetduzWRerN\ndr/Zf7IfU+zGtp9GaYFO7DWxWEWUnIb1T4BYQwJB2goRAcUaWzWHzkb/yVHcXtXvUbeTmq24ea97\naNvNb9uMdUBBbjqB5O1RLp8g/MbB/QLbowdD/E6mPaI42+02MxLKem+8ttPsbtzq2jzDupgJTd/f\nhHYteD6Fn51bufsC/LCzFgy+vR8Pm71+t5jHdr97DER2urysH8uFHtYa/SqfAZXm9d+FEewcHbWa\nMQyrVTwYLXnHv7P7yHb7MKBkW72Y8TFVVlbrHbteMzS/HcMD222mNKp6qnxIeYftTjfudtowdN/v\n3ep0D+Yq3mrZwxGQmrXHLGL3uJux+STPZnv/4Y2CWcwUjqvulPO+IHI2LDmafEBGyoi4TAk5QQTS\nyTnqqPbamDXJOXPPnnXdOBzBQf5+ezzw1TRdNKii6snsR/wCuoU1Bc4yQvVe7Ntmq1cXO67TeafZ\nPtx8sAjQKXwlmbRNHAlBLeLUAvt3GiOtpeGWcM2Cn8dXu9PPFPrkdCe9Eb0sqzIlG3q94xgetkPs\nsjAmtZnCIaYWImZYoR2BDjtFl/ePXavpb9lu3Gv2SuSWG2x5neEmsq3Yg33VbK+L8YNxy3kUg7TS\nwEspYlorxD0GahRGoChcEJi5YKycR3GIPQ9dZWI5/8YYj6SYHfJ5kOjel+5WScm1WPtkznuT8c7v\nh+o9Mfjp4PPBL0++c/LB4FeDTwafwb8fn3y4MfjDyfvw4NeDjwe/GXx8es+U1DCFnel9N6SMTrc3\n1/s6OshoPXfH0OYwOcYmZ4QYaiKI7QiS04kIigiXKCgNJUwTo+cl5+Wt78zIJphABw/v33/zzs39\nBQNZf80neFmx5ovX/q/O1dfrGw/v7L3xbuz24AfCqGKyf11NOCsIqIKQLmFtorPYEmCzWjABAsqA\nvkVTRAILpgQhhCZyYYu1TPdavkaDj2BfPoVt+F95d558cPL+KpxOsDa3+6YU5XHZ5exIa4KgkoMu\nK1VAIL4ssjZ4JAg30TCNuebPfUfu3L55d/crL8V+LKd6lXej5ZEKTwiyioBsTiCldUwCtEfrIzWY\nBxauym782eCja7AHcSDa+ChQMs6DQukT0lgzRKNSxmoVrFyE0We3B3dBStx98FLswXKqV3kPMrA0\nPOMWxWRhD0opkcXUIc+jcdnXY/SVkIj/DRpq1lc/AwX1k43Bp4OnJ387+PyituR0zZFVszUxR0be\ng7Zvtlq2++RWjL39+M3j2OvfBbsmjs2nJTVKEKlwAWbbp3cQbdc/AhPIutYEwuIKJYBHtle60d6O\n7dDpTgy70sxa+LhsfdRtvmv7MYOfmnyESk/mEPROfDJx7wy+P/htNg1OvjP49OQfBr+r7eQZca77\nUDu2D2P3Aaz5tLdn7+GbwAmgs0pP4BAnp5x/UwNubJ2aU6MXDx9DldI1sr47dN5hezANrsqyS5Yq\nGyVHMXKRvXgGOc4xYlilwLF1iugqc284zl4F5Z5rpMv2Ow9SWecJktyAlsa4R856CxaUByPKBEeo\nWLbfqzzQpyot9kifcaL1PNSVE3YKa064QyFojDiPARgc48iHpAnoGdLLeR9LJazCXf1W9kzaw3i7\ne1TlwD7VaM6hfa/Kl32qUYW6MHlWD7UNWzpWL8tDOwS/oPOSh909fuxid5twIUZsbVhU3SrPKLt0\nD3cud+zz/awazq3Ts6l+Vg2n1fGFvLsRD7Nfa8xS/2fww8FP4O/f4O9ng1/A5/cHP15vfrdj580h\n9Kk5wtocdbr9jYO37zW2ZnpfMcKb7TA1vn8Htfcng38Z/PNfbMBY8/cfDX6xMfjB4Icbg38a/Bh+\nwe+LHO/u3u3JeGEsC0YbgNeXsylPbTQieoOY1zGG/zYxxqBOjassBpE7mAJA6TyAxSPox+7jZtu2\nyi72QJGZKVjeqOj35qTN4m5cx3anF+QjRvHa9O+7NvWnkA0wGlsF5EXj7Np3Y2vveHikQjnO/t+Z\nsgUc513bbGVNBdQWEGkGmMRsSXUz4GZHvW3opPyyqFJ2P7cPh0rO+OcixBVKx27G1PadPN2p3wua\n1DrlOdXscbStg9h9t+njnTag3BY6+mQLgc70yeDXWW8CzfVjsCI/Pflw8MnJB/D7w/WW8q2KnqaW\n9a3GVtVYFsvwOyEfiZZfFuC8hFVi7cbDgzt3bx4cAO6nixewf9DE7rRT5/xif0q/GcKsI/FFwswl\nFxFI+IQ4CR4ZYTVYOJonHxzXrJbEP5pWWp+dMjzT7YohZlTfsL0m0PmBwDs3794AUTsuW962Gx/b\n7jtDKyMbCvG9/kRVaawT3lAe0D2KLZCLvfKIbr8C+ijyAfTekTjNBHU4LT8bR8W0d/YyJkoMgLwt\nxrJdaE+Vw14+09bx4SEobZl+1l0rEE6bb06aryC/orfCz8wVZ0ompH1WOo0xyBj4CcRnkhfYc73M\nszUDr91sjQ/24OvqBt88toX9v00bW+PvNcbdbvYnVH7ydycfrMeihmh6CGCmiPr+LswTilYs0dbU\nGtWg+doHs7Mc5PQx7GJswNoQIy3TOCFhYe04dwo5YROKjhAug9MpS8d6q+hAfw3Zchnz0o1bb978\nMoiZ8YPVQMDU9UCV920X6oNYWhsB9+cB1EDFGB1OeEdEAFKOQM/cEY0MDxwpIjhjhOYQoJroKGCG\nmOxxqz8c04jG50rrgSqQCKLsxp2/nMLqItk203TrFFJXkeoUAa6SIBE0vGylrcN68ordn25Yl1yp\ntyq54JBVVCDutYCVkhIFHA3wHEK0qiX3tmaGfVZDdYkWsKjh5Xk9nAbG64hFksWIuLIO5SKkmNOY\nJKxwoC+U1yPKJJg1CSWZGOKJKmQyaUQBUokFSpl+Zl6POy+j10Nq/AJ5PYrZXITX4/l6Fdb3gvxo\n8Pngs2zCDT6DEf/n4Gk+jAfd/28ucozD/7/5hf0zOkDMBlavs3M4QAoAQpzJATLtzajtAbk2DhAt\nrpL/YxRVelUcIKUDgb6ongQufHBUxRzIkqPdeUBGM4V0wI55G5WlrzwJV8OTQK+bJ2EDyOaN1+o4\nCl7bujIWMVVaWEcDilFqxCljSCtpkDIhBCZZ8Gk+mnYhvBfAIibAILzKSOAGzAowJHI4oUPeWJqo\nMFZH+8oinq76bC1iLpxwhFsUpHNgETuGLHwiYsEEDJpLGuo4cJ6PRVwwtLn4gFNxK5cU0eA1J144\ni7SN2dXjKXJOEuSjIEZ6IYyvIuznEtFgGPHR84iCwhZM3QQslLmEcDSYKx+DjIviTgsY1862p0DT\nBAuBsMxch5OAbEwJyYh5cpQAM3KvIhou0banOSTuhbHti9lchG3/3GzlFzq4wWwQsO3FeWx7Ys5s\n2z+j4AYgXHfc22HEnN/AJ2Y9A/+MAQ7kZQhwKM169sLa9zRZ7wRHGjuwviyWYOkbCT9lpCGBrmOW\nqQ5jWK/s+0u379l1s+9rmigmCialSEB9huYMEAK5xCjyiVBhSeAq1FHmCnivIgVmqz47v0jQhEuu\nEiKYcDA0A0PaeIOSlcRjS5kxVRHglfBeAL9IYMInJoGUuTLZQsHIWSER0HqUWGBiCXvlF5mu+mz9\nIj5FKaOWiOMA5IpZQNmKRkoJyYD7aIJrWZAvYKQAjo4HmQgSyfjs8k/IeR0QpcZLpxlP7MW6H+Gj\nwowkg6yAaXLvNcr8CnktsZEkEBmXXQAbw3oVKXA2bwIHPJ/TmzD46OQfCz3zu4NP4fODDbRRqp2g\neD4d/A4+fw///2SjCEHO18o/hc/P4O/peed68JCc0/1AuWAvZ2jBs70AsqbPgbLz+Bwo3sD8dXJG\nn8Pu+k6HvTPFEwz+Fxbgx4PvDX4++Cmj5AJiC8h6lyvolbpccdWCC1bcrvj54DeZjV3oPYq9M9yj\n4C+qd0TRSDxxDCVHwDTVXiANajxKXrioNAmRv4p+uBreEX7dvCNl9EMd58cVin4IWgQg/oCky2Yt\ntRS5oLK81ExppaglL1P0g7NaOZYcWPmSganEIlgOwCmE4xR+JIFZ3esRBcxXVv7FWvkak2BpsCiy\nnF1QAyd3MccWGUmNFi44vyhF2hxGrmD0w/j5TJaHghmcP+ND3hqV2W+Jz0l0JPISZ+cAccjEyFHQ\nTEjHI8PVYRFXTwI24jePm2BoAwJ3HhcpGA1TWDS2TpXPNnO2F8sHazol3uq045NFaYtIMInHnJ9R\nauAkQKpAqUyiFJNkMYQoFqcOK70FhEi+mS2NBc6Dhh+mP92++XA/ewmGv+ZobjK9RVQ3RWCNvn3v\nAojtgX2vitZ0CjxoIDMaXb7F6hSyEoQNNyIqEiMgpkrYXEVa8znl7Be/nJPshJV0SMVyMrygEKgF\nWLdCCm05h31NHYh4o3Owr0XEWYOj4YqwKkq8sljfv1MP64Qy/fyw7phPknqJBE3AVznlyJqkkBJW\ni+glY+G68NUC2V/5Yk2sG0afI9Yl954njLDjgHWcWFZnFdA6FYkDr1HkWmH99o2aHIZR9fywnjBw\nFgXCjUUOAs/EhAw2AinCKQ4ei8gqM+hfVazf2q+HdSX480M6iVhLnpNAqZyblFswNC2PSEtKOcdK\nC191IHllkf6wLqkTVpvUG1tT+kzDtlqdb8Vw3z4plGwYx7yms727c/CFymXbvnP37Xt3dm/OQl8I\ncZzgcD+2CifodE9XNTfdqJdv2Hft5nG/2drc6XbtkzebvarjxbWp+Xbo7c5hZc/27dIMm8C8AxUa\nBZYI4kxRpMEgQYR5wVXQSetl5vjl5f8cj7A7nMk4VfTXH9z7+sqMvEXzM2UEHWOuXl7QoqPTmSd/\nMPh88H/w9yugsfc3Tr6zMfjDJKPPyd8Png5+D0//f3kqygL28jyfRZXD2I5d28prfdbssKNZ356A\nWrUwUjmsDNcoiax/2Qhab9IcCbDLrDRYFbcml6+Qty1/PKbUqneqmE2dlef5iktADq20tTz8o/dc\nZF/DFGUWr8GoNvtm+uzCkOr2N6K3m+/5RxY4yD60XYHuMcpVoiwFo1B0Fsy7KC0yWoIakBVfx0Fa\n+joRQ8V4v9TsP9rtxJSavgn8chtvwmpVPVgOys+D8LWbNtuhyDqaMXCr2e31x++TOPVgifuou4Ic\nhgRed3nuxl4/hvo8quikUNGk05hZj1LQOuelxqAowEfyNCVOiZO+VljomZjWKg5VouLcGYx3iziJ\n2M3bpExgzDGRTCeBIij/MGsSkY2whw121FMPmoSQKzIZz4yxPYX+hznYtgb8/J6Q2Vb1+3hwFmxP\no2G28+WnRpOEwTUI9iK4+e4UrDo0bBVWJHmNmEw5uyswd6utAePOGUpxDDilOjS87qZbb7uNh3tB\nW66Ad2nbrkTICgXhxsH9jdH7GzYmL3DY+LMidfWvsor652vsojp0tjVNaMuUqK5t94Cc4sFx8Y6r\nbs5SPbxyUP1sgR4zpaUsP/W+CMo/mIBapceY/P4Jnn12OidiVsIjRzxFLITgtYre0VVxjY1+p29b\n+bQpbhPMRY7bnSpa3O6otGtmW84ULm4bInQwzIt+gejamwJbh2cEHi1hhqIiQTS3CTYhqCcoUkCs\nAmbicZ2sdcUhzOg8Ic2kGq/G+KwbfWG9s7wy4aD5+KgVT3sFluLBE4pJshZZEVy+1u2QM0IhpQjD\nTlOm3VqJzpb4vxe2sdPecFtxFFPZaskJ3Ey9Z4dK5qTxJudClzn7Nii8YFk4BHaFTokEHGqpuWOY\nS5zaC9vYaRf39UWliIwwbQzCIYBE54nnkF2MrLcUG6dSoGslG1jiqV7Yxk77ra8vKjl1QWhnUFIh\nU2XweYM7hJ3FOEaNsa8T8zyGucT9vLCNnXZGX19URkkElYzmCwQGcQ2qvRU+IOWdMBjolccqd/ZC\nmEt8ygvb2CkP8/XFZLJSGSsoIjJnG8VS5nA7inQQFvscdsDraOxjmEscxQvb2Gm38UWicsa5XF1h\nWglapHhOqZULquT1aPZ6s17kU7XO5I4dAa6Vg1q4pHOAmHUUVCnnYB2pB/MLrF2MpcHS1zK/7EXG\nWlSONOZwCx4iipYVr6DOhqLM2jMH8eyJN6Yu2Y1iMTYXx2GcajJ2ydV00BWNapFmxXFrHtjyAJfT\n4xsv++ROySXbwqAzxeScBtvFipx8JatLzCGVKNCU8dbj2mmHa9nCI7Y1mevmbsW0z2Ei/2v2kA+e\nljdSTj4sjOST72bXeVHw/uZ6FvHpsdX0YhROnbdv3t27tz+xmld5epZzt8vnJSlpBhZJQLA3QVuJ\nJoC2EiMSwlNuaPIK11H8ngUv8TTHEnCkbDLZixOQVjBmE7EDgiaWiDoR4wW8koHgTc2uJjMpR3b1\nuYkDs0BSKpCNhiPOEqgVXHgQTMo4T2XQtaL4C3hXhJv8R8k4NjfKk7cJX3nFRaqBF84dHw2VsCMp\nExFxqjhyMr8pMobAOA35ra11D5xKSbr8uKaoXBVlurk6zPQUnOewb0zCHkeTg9C4AylMLbKSG8RA\n/ipnGAZsXva+uRXjhWyYnw5+WfimT79XeNFrvisBX6E9Mz2Wy7w3foY4DC0xUUw5JHG+JaItRpZk\n55ch2CWGszC/InEYZexFjsJY+U7WovGVisL4fXGNuaDj6x5/gTP3tSCevcpB8BzYsvWGIRGxEdgo\na+kqG2x1/AXBmyS/r+QliL8ob5fVCbFYdrvs2QUcqMRBWU4cGcNAR1Me9GaqBdIE6IJjQZWpI2uu\nWcCB8tIKRoAzknzrQyQCdq40CDAXGAVb1/t0noCDOvBfBRxcVMCBZ55G5wG9zgG2LfNgZyiQfTqm\nbH/46GrlEXlGAQcXtOUKeM864OB7IPV+u1Fk2hyLxBxsUP2O7FeRB88g8kBqShQXNt+lyK8KYxRp\nzzQiNBDDvfFKrjoGeZkjD6SKwgfskNIadGaZA1Ap4UgqYoCLUBVVLeZx3SMPaFBY2uiRokHm25AO\nmSATooRhHrUIiryKPFg9hcIMi8YHjymS0oL9rlVm9WCGSe/AHIuSGvkq8mD1FIbMDbsQga+FnDNO\nEYcc0RFFpiIjgTBh1z+ZfDkjD0LgUirpQDei+QUaVCFnGENJGEzAZOMY17mTP4b5EkcegHlHhPYa\nyDC/i0QpUO8dFijhGBI1OQphfVS+lJEHLioGG9wg0Nyz1DEMvsGHjdYJpwWPbP3Iopcp8qA6gcXc\nqVVja+ou20Rznrv0Npsj5DrdhFvVS508JmWWjchols/ISZN5pASrTLicV0Ya0AwV9niRMtiIpSso\nJ0bbSf3Y3YtHtts/Bk2wNDYWP18K60ZMnZzkZSGw+QoLoc11e4GnsWVkW8BeUEGQijnuJL/+VQev\nEPawnJjI7BFb5nwenrouPXKtfcw6xlBtXM/j8aLR41xSwkhAjyDA6aLC5furGKEy++ctT8sCxC8L\nPaupx9s+kbAlj9thQm5DMqx+thJGsSbVIMpHa7GzKrYFtvhMbsK1T19ybsP73REjmk9OVR7TeUst\nYwI5zfIxnQNmoQxGhEUTnBVOVb7o9mre7C403CwallzSnsJpo+Oyr2ReUJzt5vy9GwCrgi2XgR3O\naOU0Roll+xxMUWREwoimKAKJgthqLD9utgFq3jDDb3OP7Xujx+W3q7xGs8swg/pxZr0/AqJ19iAV\nogAA"
+         },
+         {
+            "hasExtendedFare": false,
+            "flight": {
+               "carrier": {
+                  "uid": "SU1",
+                  "caption": "Аэрофлот - российские авиалинии",
+                  "airlineCode": "SU"
+               },
+               "price": {
+                  "total": {
+                     "amount": "33560",
+                     "currency": "руб.",
+                     "currencyCode": "RUB"
+                  },
+                  "totalFeeAndTaxes": {
+                     "amount": "15850.00",
+                     "currency": "руб.",
+                     "currencyCode": "RUB"
+                  },
+                  "rates": {
+                     "totalUsd": {
+                        "amount": "416.89",
+                        "currencyCode": "EUR"
+                     },
+                     "totalEur": {
+                        "amount": "472.68",
+                        "currencyCode": "USD"
+                     }
+                  },
+                  "passengerPrices": [
+                     {
+                        "total": {
+                           "amount": "33560.00",
+                           "currency": "руб.",
+                           "currencyCode": "RUB"
+                        },
+                        "passengerType": {
+                           "uid": "ADULT",
+                           "caption": "Взрослый"
+                        },
+                        "singlePassengerTotal": {
+                           "amount": "33560.00",
+                           "currency": "руб.",
+                           "currencyCode": "RUB"
+                        },
+                        "passengerCount": 1,
+                        "tariff": {
+                           "amount": "17710.00",
+                           "currency": "руб.",
+                           "currencyCode": "RUB"
+                        },
+                        "feeAndTaxes": {
+                           "amount": "15850.00",
+                           "currency": "руб.",
+                           "currencyCode": "RUB"
+                        }
+                     }
+                  ]
+               },
+               "servicesStatuses": {
+                  "baggage": {
+                     "uid": "OFF",
+                     "caption": "Недоступно"
+                  },
+                  "exchange": {
+                     "uid": "PAID",
+                     "caption": "Платно"
+                  },
+                  "refund": {
+                     "uid": "OFF",
+                     "caption": "Недоступно"
+                  }
+               },
+               "legs": [
+                  {
+                     "duration": 570,
+                     "segments": [
+                        {
+                           "classOfServiceCode": "L",
+                           "classOfService": {
+                              "uid": "ECONOMY",
+                              "caption": "Эконом"
+                           },
+                           "departureAirport": {
+                              "uid": "VKO",
+                              "caption": "ВНУКОВО"
+                           },
+                           "departureCity": {
+                              "uid": "MOW",
+                              "caption": "Москва"
+                           },
+                           "aircraft": {
+                              "uid": "320",
+                              "caption": "А320"
+                           },
+                           "travelDuration": 80,
+                           "arrivalCity": {
+                              "uid": "LED",
+                              "caption": "САНКТ-ПЕТЕРБУРГ"
+                           },
+                           "arrivalDate": "2020-08-18T09:50:00",
+                           "flightNumber": "6010",
+                           "techStopInfos": [],
+                           "departureDate": "2020-08-18T08:30:00",
+                           "stops": 0,
+                           "servicesDetails": {
+                              "freeCabinLuggage": {},
+                              "paidCabinLuggage": {},
+                              "tariffName": "ECONOMY LITE",
+                              "fareBasis": {
+                                 "ADULT": "LNB"
+                              },
+                              "freeLuggage": {
+                                 "ADULT": {
+                                    "nil": true
+                                 }
+                              },
+                              "paidLuggage": {}
+                           },
+                           "airline": {
+                              "uid": "SU1",
+                              "caption": "Аэрофлот - российские авиалинии",
+                              "airlineCode": "SU"
+                           },
+                           "starting": true,
+                           "arrivalAirport": {
+                              "uid": "LED",
+                              "caption": "ПУЛКОВО"
+                           },
+                           "operatingAirline": {
+                              "uid": "FV",
+                              "caption": "ГТК Россия",
+                              "airlineCode": "FV"
+                           }
+                        },
+                        {
+                           "classOfServiceCode": "L",
+                           "classOfService": {
+                              "uid": "ECONOMY",
+                              "caption": "Эконом"
+                           },
+                           "departureAirport": {
+                              "uid": "LED",
+                              "caption": "ПУЛКОВО"
+                           },
+                           "departureCity": {
+                              "uid": "LED",
+                              "caption": "САНКТ-ПЕТЕРБУРГ"
+                           },
+                           "aircraft": {
+                              "uid": "319",
+                              "caption": "AirbusA319"
+                           },
+                           "travelDuration": 210,
+                           "arrivalCity": {
+                              "uid": "LON",
+                              "caption": "ЛОНДОН"
+                           },
+                           "arrivalDate": "2020-08-18T16:00:00",
+                           "flightNumber": "6619",
+                           "techStopInfos": [],
+                           "departureDate": "2020-08-18T14:30:00",
+                           "stops": 0,
+                           "servicesDetails": {
+                              "freeCabinLuggage": {},
+                              "paidCabinLuggage": {},
+                              "tariffName": "ECONOMY LITE",
+                              "fareBasis": {
+                                 "ADULT": "LNB"
+                              },
+                              "freeLuggage": {
+                                 "ADULT": {
+                                    "nil": true
+                                 }
+                              },
+                              "paidLuggage": {}
+                           },
+                           "airline": {
+                              "uid": "SU1",
+                              "caption": "Аэрофлот - российские авиалинии",
+                              "airlineCode": "SU"
+                           },
+                           "starting": false,
+                           "arrivalAirport": {
+                              "uid": "LGW",
+                              "caption": "Лондон, Гатвик"
+                           },
+                           "operatingAirline": {
+                              "uid": "FV",
+                              "caption": "ГТК Россия",
+                              "airlineCode": "FV"
+                           }
+                        }
+                     ]
+                  },
+                  {
+                     "duration": 360,
+                     "segments": [
+                        {
+                           "classOfServiceCode": "L",
+                           "classOfService": {
+                              "uid": "ECONOMY",
+                              "caption": "Эконом"
+                           },
+                           "departureAirport": {
+                              "uid": "LGW",
+                              "caption": "Лондон, Гатвик"
+                           },
+                           "departureCity": {
+                              "uid": "LON",
+                              "caption": "ЛОНДОН"
+                           },
+                           "aircraft": {
+                              "uid": "319",
+                              "caption": "AirbusA319"
+                           },
+                           "travelDuration": 195,
+                           "arrivalCity": {
+                              "uid": "LED",
+                              "caption": "САНКТ-ПЕТЕРБУРГ"
+                           },
+                           "arrivalDate": "2020-08-19T22:25:00",
+                           "flightNumber": "6620",
+                           "techStopInfos": [],
+                           "departureDate": "2020-08-19T17:10:00",
+                           "stops": 0,
+                           "servicesDetails": {
+                              "freeCabinLuggage": {},
+                              "paidCabinLuggage": {},
+                              "tariffName": "ECONOMY LITE",
+                              "fareBasis": {
+                                 "ADULT": "LNB"
+                              },
+                              "freeLuggage": {
+                                 "ADULT": {
+                                    "nil": true
+                                 }
+                              },
+                              "paidLuggage": {}
+                           },
+                           "airline": {
+                              "uid": "SU1",
+                              "caption": "Аэрофлот - российские авиалинии",
+                              "airlineCode": "SU"
+                           },
+                           "starting": true,
+                           "arrivalAirport": {
+                              "uid": "LED",
+                              "caption": "ПУЛКОВО"
+                           },
+                           "operatingAirline": {
+                              "uid": "FV",
+                              "caption": "ГТК Россия",
+                              "airlineCode": "FV"
+                           }
+                        },
+                        {
+                           "classOfServiceCode": "L",
+                           "classOfService": {
+                              "uid": "ECONOMY",
+                              "caption": "Эконом"
+                           },
+                           "departureAirport": {
+                              "uid": "LED",
+                              "caption": "ПУЛКОВО"
+                           },
+                           "departureCity": {
+                              "uid": "LED",
+                              "caption": "САНКТ-ПЕТЕРБУРГ"
+                           },
+                           "aircraft": {
+                              "uid": "320",
+                              "caption": "А320"
+                           },
+                           "travelDuration": 80,
+                           "arrivalCity": {
+                              "uid": "MOW",
+                              "caption": "Москва"
+                           },
+                           "arrivalDate": "2020-08-20T01:10:00",
+                           "flightNumber": "45",
+                           "techStopInfos": [],
+                           "departureDate": "2020-08-19T23:50:00",
+                           "stops": 0,
+                           "servicesDetails": {
+                              "freeCabinLuggage": {},
+                              "paidCabinLuggage": {},
+                              "tariffName": "ECONOMY LITE",
+                              "fareBasis": {
+                                 "ADULT": "LNB"
+                              },
+                              "freeLuggage": {
+                                 "ADULT": {
+                                    "nil": true
+                                 }
+                              },
+                              "paidLuggage": {}
+                           },
+                           "airline": {
+                              "uid": "SU1",
+                              "caption": "Аэрофлот - российские авиалинии",
+                              "airlineCode": "SU"
+                           },
+                           "starting": false,
+                           "arrivalAirport": {
+                              "uid": "SVO",
+                              "caption": "ШЕРЕМЕТЬЕВО"
+                           }
+                        }
+                     ]
+                  }
+               ],
+               "airlineAlliance": {
+                  "uid": "*S",
+                  "caption": "Skyteam"
+               },
+               "exchange": {
+                  "ADULT": {
+                     "exchangeableBeforeDeparture": true,
+                     "exchangeAfterDeparture": {
+                        "amount": "2978",
+                        "currency": "руб.",
+                        "currencyCode": "RUB"
+                     },
+                     "exchangeBeforeDeparture": {
+                        "amount": "2978",
+                        "currency": "руб.",
+                        "currencyCode": "RUB"
+                     },
+                     "exchangeableAfterDeparture": true
+                  }
+               },
+               "isTripartiteContractDiscountApplied": false,
+               "international": false,
+               "seats": [
+                  {
+                     "count": 1,
+                     "type": {
+                        "uid": "ADULT",
+                        "caption": "Взрослый"
+                     }
+                  }
+               ],
+               "refund": {
+                  "ADULT": {
+                     "refundableBeforeDeparture": false,
+                     "refundableAfterDeparture": false
+                  }
+               }
+            },
+            "flightToken": "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\nJb/6LT3XwGuenwAA"
+         },
+         {
+            "hasExtendedFare": false,
+            "flight": {
+               "carrier": {
+                  "uid": "LO",
+                  "caption": "LOT Polish Airlines",
+                  "airlineCode": "LO"
+               },
+               "price": {
+                  "total": {
+                     "amount": "21049",
+                     "currency": "руб.",
+                     "currencyCode": "RUB"
+                  },
+                  "totalFeeAndTaxes": {
+                     "amount": "10259.00",
+                     "currency": "руб.",
+                     "currencyCode": "RUB"
+                  },
+                  "rates": {
+                     "totalUsd": {
+                        "amount": "261.48",
+                        "currencyCode": "EUR"
+                     },
+                     "totalEur": {
+                        "amount": "296.47",
+                        "currencyCode": "USD"
+                     }
+                  },
+                  "passengerPrices": [
+                     {
+                        "total": {
+                           "amount": "21049.00",
+                           "currency": "руб.",
+                           "currencyCode": "RUB"
+                        },
+                        "passengerType": {
+                           "uid": "ADULT",
+                           "caption": "Взрослый"
+                        },
+                        "singlePassengerTotal": {
+                           "amount": "21049.00",
+                           "currency": "руб.",
+                           "currencyCode": "RUB"
+                        },
+                        "passengerCount": 1,
+                        "tariff": {
+                           "amount": "10790.00",
+                           "currency": "руб.",
+                           "currencyCode": "RUB"
+                        },
+                        "feeAndTaxes": {
+                           "amount": "10259.00",
+                           "currency": "руб.",
+                           "currencyCode": "RUB"
+                        }
+                     }
+                  ]
+               },
+               "servicesStatuses": {
+                  "baggage": {
+                     "uid": "OFF",
+                     "caption": "Недоступно"
+                  },
+                  "exchange": {
+                     "uid": "PAID",
+                     "caption": "Платно"
+                  },
+                  "refund": {
+                     "uid": "OFF",
+                     "caption": "Недоступно"
+                  }
+               },
+               "legs": [
+                  {
+                     "duration": 885,
+                     "segments": [
+                        {
+                           "classOfServiceCode": "V",
+                           "classOfService": {
+                              "uid": "ECONOMY",
+                              "caption": "Эконом"
+                           },
+                           "departureAirport": {
+                              "uid": "SVO",
+                              "caption": "ШЕРЕМЕТЬЕВО"
+                           },
+                           "departureCity": {
+                              "uid": "MOW",
+                              "caption": "Москва"
+                           },
+                           "aircraft": {
+                              "uid": "Е75",
+                              "caption": "ЭМБРАЕР 175"
+                           },
+                           "travelDuration": 135,
+                           "arrivalCity": {
+                              "uid": "WAW",
+                              "caption": "ВАРШАВА (ФРЕДЕРИК ШОПЕН)"
+                           },
+                           "arrivalDate": "2020-08-18T21:55:00",
+                           "flightNumber": "678",
+                           "techStopInfos": [],
+                           "departureDate": "2020-08-18T20:40:00",
+                           "stops": 0,
+                           "servicesDetails": {
+                              "freeCabinLuggage": {},
+                              "paidCabinLuggage": {},
+                              "tariffName": "ECONOMY SAVER",
+                              "fareBasis": {
+                                 "ADULT": "VSAVP0"
+                              },
+                              "freeLuggage": {
+                                 "ADULT": {
+                                    "nil": true
+                                 }
+                              },
+                              "paidLuggage": {}
+                           },
+                           "airline": {
+                              "uid": "LO",
+                              "caption": "LOT Polish Airlines",
+                              "airlineCode": "LO"
+                           },
+                           "starting": true,
+                           "arrivalAirport": {
+                              "uid": "WAW",
+                              "caption": "ВАРШАВА (ФРЕДЕРИК ШОПЕН)"
+                           }
+                        },
+                        {
+                           "classOfServiceCode": "V",
+                           "classOfService": {
+                              "uid": "ECONOMY",
+                              "caption": "Эконом"
+                           },
+                           "departureAirport": {
+                              "uid": "WAW",
+                              "caption": "ВАРШАВА (ФРЕДЕРИК ШОПЕН)"
+                           },
+                           "departureCity": {
+                              "uid": "WAW",
+                              "caption": "ВАРШАВА (ФРЕДЕРИК ШОПЕН)"
+                           },
+                           "aircraft": {
+                              "uid": "Е95",
+                              "caption": "ЭМБРАЕР 195"
+                           },
+                           "travelDuration": 175,
+                           "arrivalCity": {
+                              "uid": "LON",
+                              "caption": "ЛОНДОН"
+                           },
+                           "arrivalDate": "2020-08-19T09:25:00",
+                           "flightNumber": "281",
+                           "techStopInfos": [],
+                           "departureDate": "2020-08-19T07:30:00",
+                           "stops": 0,
+                           "servicesDetails": {
+                              "freeCabinLuggage": {},
+                              "paidCabinLuggage": {},
+                              "tariffName": "ECONOMY SAVER",
+                              "fareBasis": {
+                                 "ADULT": "VSAVP0"
+                              },
+                              "freeLuggage": {
+                                 "ADULT": {
+                                    "nil": true
+                                 }
+                              },
+                              "paidLuggage": {}
+                           },
+                           "airline": {
+                              "uid": "LO",
+                              "caption": "LOT Polish Airlines",
+                              "airlineCode": "LO"
+                           },
+                           "starting": false,
+                           "arrivalAirport": {
+                              "uid": "LHR",
+                              "caption": "Лондон, Хитроу"
+                           }
+                        }
+                     ]
+                  },
+                  {
+                     "duration": 1415,
+                     "segments": [
+                        {
+                           "classOfServiceCode": "V",
+                           "classOfService": {
+                              "uid": "ECONOMY",
+                              "caption": "Эконом"
+                           },
+                           "departureAirport": {
+                              "uid": "LHR",
+                              "caption": "Лондон, Хитроу"
+                           },
+                           "departureCity": {
+                              "uid": "LON",
+                              "caption": "ЛОНДОН"
+                           },
+                           "aircraft": {
+                              "uid": "Е95",
+                              "caption": "ЭМБРАЕР 195"
+                           },
+                           "travelDuration": 155,
+                           "arrivalCity": {
+                              "uid": "WAW",
+                              "caption": "ВАРШАВА (ФРЕДЕРИК ШОПЕН)"
+                           },
+                           "arrivalDate": "2020-08-19T21:45:00",
+                           "flightNumber": "280",
+                           "techStopInfos": [],
+                           "departureDate": "2020-08-19T18:10:00",
+                           "stops": 0,
+                           "servicesDetails": {
+                              "freeCabinLuggage": {},
+                              "paidCabinLuggage": {},
+                              "tariffName": "ECONOMY SAVER",
+                              "fareBasis": {
+                                 "ADULT": "VSAVP0"
+                              },
+                              "freeLuggage": {
+                                 "ADULT": {
+                                    "nil": true
+                                 }
+                              },
+                              "paidLuggage": {}
+                           },
+                           "airline": {
+                              "uid": "LO",
+                              "caption": "LOT Polish Airlines",
+                              "airlineCode": "LO"
+                           },
+                           "starting": true,
+                           "arrivalAirport": {
+                              "uid": "WAW",
+                              "caption": "ВАРШАВА (ФРЕДЕРИК ШОПЕН)"
+                           }
+                        },
+                        {
+                           "classOfServiceCode": "V",
+                           "classOfService": {
+                              "uid": "ECONOMY",
+                              "caption": "Эконом"
+                           },
+                           "departureAirport": {
+                              "uid": "WAW",
+                              "caption": "ВАРШАВА (ФРЕДЕРИК ШОПЕН)"
+                           },
+                           "departureCity": {
+                              "uid": "WAW",
+                              "caption": "ВАРШАВА (ФРЕДЕРИК ШОПЕН)"
+                           },
+                           "aircraft": {
+                              "uid": "Е75",
+                              "caption": "ЭМБРАЕР 175"
+                           },
+                           "travelDuration": 130,
+                           "arrivalCity": {
+                              "uid": "MOW",
+                              "caption": "Москва"
+                           },
+                           "arrivalDate": "2020-08-20T19:45:00",
+                           "flightNumber": "677",
+                           "techStopInfos": [],
+                           "departureDate": "2020-08-20T16:35:00",
+                           "stops": 0,
+                           "servicesDetails": {
+                              "freeCabinLuggage": {},
+                              "paidCabinLuggage": {},
+                              "tariffName": "ECONOMY SAVER",
+                              "fareBasis": {
+                                 "ADULT": "VSAVP0"
+                              },
+                              "freeLuggage": {
+                                 "ADULT": {
+                                    "nil": true
+                                 }
+                              },
+                              "paidLuggage": {}
+                           },
+                           "airline": {
+                              "uid": "LO",
+                              "caption": "LOT Polish Airlines",
+                              "airlineCode": "LO"
+                           },
+                           "starting": false,
+                           "arrivalAirport": {
+                              "uid": "SVO",
+                              "caption": "ШЕРЕМЕТЬЕВО"
+                           }
+                        }
+                     ]
+                  }
+               ],
+               "exchange": {
+                  "ADULT": {
+                     "exchangeableBeforeDeparture": true,
+                     "exchangeAfterDeparture": {
+                        "amount": "5635",
+                        "currency": "руб.",
+                        "currencyCode": "RUB"
+                     },
+                     "exchangeBeforeDeparture": {
+                        "amount": "5635",
+                        "currency": "руб.",
+                        "currencyCode": "RUB"
+                     },
+                     "exchangeableAfterDeparture": true
+                  }
+               },
+               "isTripartiteContractDiscountApplied": false,
+               "international": false,
+               "seats": [
+                  {
+                     "count": 1,
+                     "type": {
+                        "uid": "ADULT",
+                        "caption": "Взрослый"
+                     }
+                  }
+               ],
+               "refund": {
+                  "ADULT": {
+                     "refundableBeforeDeparture": false,
+                     "refundableAfterDeparture": false
+                  }
+               }
+            },
+            "flightToken": "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"
+         }
+      ]
+   }
+}

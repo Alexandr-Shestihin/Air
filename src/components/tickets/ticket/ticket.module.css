@@ -1,0 +1,71 @@
+.ticketContainer {
+   margin: 20px 0 0 258px;
+   width: 100%;
+}
+.ticketHeaderContainer {
+   display: flex;
+   justify-content: end;
+   height: 44px;
+   width: 100%;
+   background: #0087c9;
+   padding-right: 15px;
+   color: white;
+   font-size: 20px;
+}
+.ticketHeader {
+   display: flex;
+   text-align: right;
+   flex-direction: column;
+}
+.ticketHeaderContainer .ticketHeader span {
+   font-size: 12px;
+}
+.text {
+   padding: 0 20px;
+   font-size: 20px;
+   margin-top: 10px;
+}
+.textBlue {
+   color: #0087c9;
+}
+.line {
+   display: block;
+   margin-top: 5px;
+   margin-left: auto;
+   margin-right: auto;
+   border-style: inset;
+   border-width: 1px;
+}
+.timeContainer {
+   display: flex;
+   justify-content: space-between;
+}
+.containerLine {
+   display: flex;
+   margin-top: 5px;
+}
+.containerLine .line {
+   width: 220px;
+   height: 2px;
+}
+.textOrange {
+   color: #ffb167;
+   margin-top: -8px;
+}
+.carrierName {
+   margin-top: 10px;
+}
+.line_b {
+   background: #0087c9;
+   height: 4px;
+   margin-top: 5px;
+}
+button {
+   margin-top: 5px;
+   font-size: 20px;
+   text-transform: uppercase;
+   height: 40px;
+   width: 100%;
+   background: #ffb167;
+   color: white;
+}
