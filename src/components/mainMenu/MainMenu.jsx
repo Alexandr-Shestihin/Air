@@ -7,10 +7,14 @@ const MainMenu = (props) => {
       let result = e.target.id;
       setRadioChecked(result)
    }
-   props.sortIncrease()
-
+   const cliiik = () => {
+      props.sortDescending()
+   }
+   setTimeout(() => props.sortDescending(), 1000)
+   props.sortDescending()
    return (
       <div className={s.mainMenu} >
+         <button onClick={cliiik}></button>
          <div className={s.sort}>
             <h2 className={s.text} >Сортировать</h2>
             <ul className={s.text} >

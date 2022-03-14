@@ -17,10 +17,13 @@ const airReducer = (state = initialised, action) => {
          }
       }
       case DESCENDING: {
-         let result1 = state.data.sort((a, b) => +a.flight.price.total.amount < +b.flight.price.total.amount ? 1 : -1)
+
+         let result1 = { ...state }
+         result1.data.sort((a, b) => +a.flight.price.total.amount > + b.flight.price.total.amount ? 1 : -1)
+         debugger
          return {
             ...state,
-            data: result1,
+            data: result1.data,
          }
       }
 
