@@ -1,17 +1,17 @@
 import React from "react";
 import { connect } from 'react-redux';
 import Tickets from "./Tickets";
-import { sortIncreaseActionCreator, sortDescendingActionCreator } from '../../Redux/air-Reducer';
+import { setDataActionCreator } from '../../Redux/air-Reducer';
 
 const mapStateToProps = (state) => {
    return {
       data: state.airReducer.data,
    }
 }
+
 const mapDispatchToProps = (dispatch) => {
    return {
-      sortIncrease: () => dispatch(sortIncreaseActionCreator()),
-      sortDescending: () => dispatch(sortDescendingActionCreator())
+      setData: (data) => dispatch(setDataActionCreator(data)),
    }
 }
 const TicketsContainer = connect(mapStateToProps, mapDispatchToProps)(Tickets)

@@ -1,7 +1,7 @@
-import React, { useState } from "react";
+import React from "react";
 import { connect } from "react-redux";
 import MainMenu from "./MainMenu";
-import { sortIncreaseActionCreator, sortDescendingActionCreator } from "../../Redux/air-Reducer";
+import { sortAscendingActionCreator, sortDescendingActionCreator, byTravelTimeAC } from "../../Redux/air-Reducer";
 
 const mapStateToProps = (state) => {
    return {
@@ -11,8 +11,9 @@ const mapStateToProps = (state) => {
 
 const mapDispatchToProps = (dispatch) => {
    return {
-      sortIncrease: () => dispatch(sortIncreaseActionCreator()),
+      sortAscending: () => dispatch(sortAscendingActionCreator()),
       sortDescending: () => dispatch(sortDescendingActionCreator()),
+      travelTime: () => dispatch(byTravelTimeAC())
    }
 }
 

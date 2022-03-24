@@ -2,21 +2,14 @@ import React, { useState } from "react";
 import s from "./mainMenu.module.css";
 
 const MainMenu = (props) => {
-   const [radioChecked, setRadioChecked] = useState('increase');
+   const [radioChecked, setRadioChecked] = useState(0);
    const radioButtonChanged = (e) => {
       let result = e.target.id;
       setRadioChecked(result)
    }
-   const cliiik = () => {
-      props.sortDescending()
-   }
-   setTimeout(() => props.sortDescending(), 1000)
-   props.sortDescending()
    return (
       <div className={s.mainMenu} >
-         <button onClick={cliiik}></button>
          <div className={s.sort}>
-            <h2 className={s.text} >Сортировать</h2>
             <ul className={s.text} >
                <li>
                   <input
@@ -25,7 +18,7 @@ const MainMenu = (props) => {
                      id='increase'
                      name="sort"
                      onChange={radioButtonChanged}
-                     onClick={props.sortIncrease}
+                     onClick={props.sortAscending}
                   />
                   <label htmlFor="increase"> - по возрастанию цены</label>
                </li>
@@ -47,6 +40,7 @@ const MainMenu = (props) => {
                      id="time"
                      name="sort"
                      checked={radioChecked === 'time'}
+                     onClick={props.travelTime}
                   />
                   <label htmlFor="time"> - по времени в пути</label>
                </li>
@@ -86,14 +80,14 @@ const MainMenu = (props) => {
             <h2 className={s.text}>Авиакомпании</h2>
             <ul className={s.text} >
                <li>
-                  <input type="checkbox" id='withTransfer'
+                  <input type="checkbox" id='airlinesPL'
                      name="filter" />
-                  <label htmlFor="withTransfer"> - LOT Polish Airlines от 21049 р.</label>
+                  <label htmlFor="airlinesPL"> - LOT Polish Airlines от 21049 р.</label>
                </li>
                <li>
-                  <input type="checkbox" id="withoutTransfer"
+                  <input type="checkbox" id="airlinesRU"
                      name="filter" />
-                  <label htmlFor="withoutTransfer"> - Аэрофлот - рос.... от 31733 р.</label>
+                  <label htmlFor="airlinesRU"> - Аэрофлот - рос.... от 31733 р.</label>
                </li>
             </ul>
          </div>
